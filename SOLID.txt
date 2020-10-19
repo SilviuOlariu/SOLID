@@ -1,0 +1,17 @@
+SOLID
+
+SRP
+    - the class should have just one single reason the be changed
+    - your class should do many things but just one 
+	
+OCP
+    - your class should be open for extension but close for modification one it's on production
+	- if you are in the development process this doesn't apply 
+	- don't modify code that already works except it is a bug
+	- you might introduce potential bugs
+	- not tie yourself directly to classes
+	- extract interfaces even for model
+    - you can achive OCP through interfacesm base clases, extensions
+	
+DIP
+   - High level modules shouldn't depend on low level modules but rather depend on Abstractions( interfaces)
